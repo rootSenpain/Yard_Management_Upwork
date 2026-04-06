@@ -45,8 +45,8 @@ app = FastAPI(
     description="Backend service for high-performance logistics Yard Management System.",
     version="1.0.0",
     lifespan=lifespan,
-    openapi_url="/openapi.json",  # Burayı ekledik
-    docs_url="/docs",            # Burayı ekledik
+    openapi_url="/openapi.json",  
+    docs_url="/docs",            
     redoc_url=None
 )
 
